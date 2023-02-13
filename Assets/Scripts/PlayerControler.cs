@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerControler : MonoBehaviour
 {
-    private float _speed = 10;
+    private float _speed = 20;
 
     public GameObject projectilePrefab;
     // Start is called before the first frame update
