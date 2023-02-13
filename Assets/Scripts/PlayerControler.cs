@@ -19,9 +19,11 @@ public class PlayerControler : MonoBehaviour
         var dir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         transform.Translate(dir * _speed * Time.deltaTime);
 
+        
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
-    }
+    }   
 }
